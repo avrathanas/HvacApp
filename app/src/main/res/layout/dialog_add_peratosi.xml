@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etPerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Όνομα Πελάτη" />
+
+        <EditText
+            android:id="@+id/etPerErgasia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εργασία" />
+
+        <EditText
+            android:id="@+id/etPerSynergeio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Συνεργείο" />
+
+        <EditText
+            android:id="@+id/etPerKostos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Κόστος"
+            android:inputType="numberDecimal" />
+
+        <CheckBox
+            android:id="@+id/cbPliromi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Πληρωμή" />
+
+        <CheckBox
+            android:id="@+id/cbOloklirosi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ολοκλήρωση" />
+
+        <EditText
+            android:id="@+id/etPerDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ημερομηνία" />
+
+        <EditText
+            android:id="@+id/etPerSxolia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Σχόλια" />
+
+        <Button
+            android:id="@+id/btnSavePer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Αποθήκευση" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1007824488984",
+    "project_id": "hvacapp-c0ca576a",
+    "storage_bucket": "hvacapp-c0ca576a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007824488984:android:39bb2c8ba97d476427d16d",
+        "android_client_info": {
+          "package_name": "com.example.hvacapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG67teDeaDXhhdc9f9nQBDk8XY8GYbZjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

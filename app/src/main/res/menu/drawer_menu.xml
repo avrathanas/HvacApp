@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_pelatologio"
+        android:title="@string/menu_pelatologio" />
+    <item
+        android:id="@+id/nav_istoriko"
+        android:title="@string/menu_istoriko" />
+    <item
+        android:id="@+id/nav_synergates"
+        android:title="@string/menu_synergates" />
+    <item
+        android:id="@+id/nav_prosopiko"
+        android:title="@string/menu_prosopiko" />
+    <item
+        android:id="@+id/nav_peratosi"
+        android:title="@string/menu_peratosi" />
+</menu>
